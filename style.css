@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 62.5%; */
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #6eb347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .left {
+  width: 52px;
+  display: flex;
+} */
