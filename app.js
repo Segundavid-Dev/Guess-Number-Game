@@ -2,7 +2,7 @@ let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highscore = 0;
 
-document.querySelector(".number").textContent = secretNumber;
+// document.querySelector(".number").textContent = secretNumber;
 
 document.querySelector(".check").addEventListener("click", function () {
   document.querySelector(".message").textContent = "Guessing...";
@@ -51,7 +51,7 @@ document.querySelector(".check").addEventListener("click", function () {
 document.querySelector(".again").addEventListener("click", function () {
   score = 20; // restore initial values of the score
   secretNumber = Math.trunc(Math.random() * 20) + 1; // generate another random number
-  document.querySelector(".number").textContent = secretNumber; // set the "number" element to the new secretNumber
+  //   document.querySelector(".number").textContent = secretNumber; // set the "number" element to the new secretNumber
   document.querySelector("body").style.backgroundColor = "#222"; // reset style back to the original
   document.querySelector(".number").style.width = "15rem"; // reset style back to the original
   document.querySelector(".message").textContent = "🙂Start Game"; // reset style back to the original
